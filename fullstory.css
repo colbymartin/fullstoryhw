@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(47deg, #5672d1 0%, #685ec3 26%, #8d35a5 82%);
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+/*Why is background the property here and not background color?*/
+.left {
+    padding-top: 4rem;
+    width: 42%;
+}
+.tag {
+    padding-top: 10rem;
+}
+.tag h2 {
+    font-weight: bolder;
+}
+.right {
+    padding-top: 4rem;
+    width: 58%;
+}
+body > div {
+    display: inline-block; 
+}
+.head {
+    font-size: 2em; 
+}
+.head a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
