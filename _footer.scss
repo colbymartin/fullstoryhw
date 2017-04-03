@@ -1,0 +1,11 @@
+footer {
+    bottom: 3rem;
+    font-size: 1.1em;
+    font-weight: 300;
+    .customers {
+        color: $secondary-color;
+    }
+    .customers:hover {
+        color: $primary-color;
+    }
+}

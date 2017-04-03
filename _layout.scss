@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    div { 
+        display: inline-block;
+    }
+    .left {
+        width: 42%;
+        .tag h2 {
+             margin-bottom: 1rem;
+        }
+        .tag ul {
+            display: flex;
+            flex-direction: row;
+            li {
+                width: 30%;
+                .button{
+                    display: inline-block;
+                }
+            }
+        }
+        .tag p {
+            margin-top: 0;
+        }
+    }
+    .right {
+        width: 58%;
+        display: flex;
+        flex-direction: row;
+        ul {
+            width: 50%;
+            li {
+                width: 100%;
+                margin-bottom: 3rem;
+                .twitterpic {
+                    position: relative;
+                    margin-top: -50%;
+                    margin-left: 5%;
+                }
+            }
+        }
+        .righttweets {
+            margin-top: 4rem;
+        }
+    }
+    footer {
+        position: fixed;
+    }
+    
+}
+@media (max-width: 1185px) {
+    body {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        .left {
+            width: 100%;
+            text-align: center;
+            .head {
+                width: 100%;
+                a {
+                    flex-direction: column;
+                }
+            }
+            .tag ul {
+                flex-direction: column;
+                li {
+                    margin: auto;
+                }
+            }
+        }
+        .right {
+            width: 100%;
+        }
+        footer {
+            bottom: 10px;
+            position: relative;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 700px) {
+    body {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        .left {
+            width: 100%;
+            text-align: center;
+            .head {
+                width: 100%;
+                a {
+                    flex-direction: column;
+                }
+            }
+            .tag ul {
+                flex-direction: column;
+                li {
+                    margin: auto;
+                }
+            }
+        }
+        .right {
+            flex-direction: column;
+            ul {
+                text-align: center;
+                width: 85%;
+                margin: 0 auto;
+                li .twitterpic {
+                    margin-left: 0;
+                }
+            }
+        }
+        footer {
+            bottom: 10px;
+            position: relative;
+            text-align: center;
+        }
+    }
+}

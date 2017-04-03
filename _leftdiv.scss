@@ -1,0 +1,51 @@
+.left {
+     padding-top: 4rem;
+     .head {
+         font-size: 2em;
+         a { 
+           text-decoration: none;
+           color: $primary-color;  
+         }
+     }
+     .tag {
+         padding-top: 10rem;
+         h2 {
+            font-family: Georgia;
+            font-size: 2.5em;
+         }
+         p {
+             font-weight: 300;
+             color: lightgray;
+             font-size: 1.3em;
+         }
+         ul {
+            list-style-type: none;
+            padding-left: 0;
+            li {
+                width: 30%;
+                .button {
+                    border-radius: 5rem;
+                    font-size: 1em;
+                    color: $primary-color;
+                    text-decoration: none; 
+                    padding: .5rem 1.8rem .5rem 1.8rem;
+                    background: linear-gradient(60deg, #98349b 0%, #c94693 25%, #ef558d 78%, #f8bc05 100%);
+                }
+                .button:hover {
+                    background: linear-gradient(60deg, #f8bc05 0%, #ef558d 25%, #c94693 78%, #98349b 100%);
+                }
+            }
+            .link {
+                padding-top: .5rem;
+                a {
+                    font-size: 1em;
+                    color: $primary-color;
+                    text-decoration: none;
+                }
+            }
+            .link a:hover {
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+}

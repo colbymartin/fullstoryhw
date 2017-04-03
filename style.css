@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-right: 6rem;
+  margin-left: 6rem; }
+  body div {
+    display: inline-block; }
+  body .left {
+    width: 42%; }
+    body .left .tag h2 {
+      margin-bottom: 1rem; }
+    body .left .tag ul {
+      display: flex;
+      flex-direction: row; }
+      body .left .tag ul li {
+        width: 30%; }
+        body .left .tag ul li .button {
+          display: inline-block; }
+    body .left .tag p {
+      margin-top: 0; }
+  body .right {
+    width: 58%;
+    display: flex;
+    flex-direction: row; }
+    body .right ul {
+      width: 50%; }
+      body .right ul li {
+        width: 100%;
+        margin-bottom: 3rem; }
+        body .right ul li .twitterpic {
+          position: relative;
+          margin-top: -50%;
+          margin-left: 5%; }
+    body .right .righttweets {
+      margin-top: 4rem; }
+  body footer {
+    position: fixed; }
+
+@media (max-width: 1185px) {
+  body {
+    flex-direction: column;
+    width: 100%;
+    margin: 0; }
+    body .left {
+      width: 100%;
+      text-align: center; }
+      body .left .head {
+        width: 100%; }
+        body .left .head a {
+          flex-direction: column; }
+      body .left .tag ul {
+        flex-direction: column; }
+        body .left .tag ul li {
+          margin: auto; }
+    body .right {
+      width: 100%; }
+    body footer {
+      bottom: 10px;
+      position: relative;
+      text-align: center; } }
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+    width: 100%;
+    margin: 0; }
+    body .left {
+      width: 100%;
+      text-align: center; }
+      body .left .head {
+        width: 100%; }
+        body .left .head a {
+          flex-direction: column; }
+      body .left .tag ul {
+        flex-direction: column; }
+        body .left .tag ul li {
+          margin: auto; }
+    body .right {
+      flex-direction: column; }
+      body .right ul {
+        text-align: center;
+        width: 85%;
+        margin: 0 auto; }
+        body .right ul li .twitterpic {
+          margin-left: 0; }
+    body footer {
+      bottom: 10px;
+      position: relative;
+      text-align: center; } }
+body {
+  background: linear-gradient(47deg, #5672d1 0%, #685ec3 26%, #8d35a5 82%);
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff; }
+
+.left {
+  padding-top: 4rem; }
+  .left .head {
+    font-size: 2em; }
+    .left .head a {
+      text-decoration: none;
+      color: #ffffff; }
+  .left .tag {
+    padding-top: 10rem; }
+    .left .tag h2 {
+      font-family: Georgia;
+      font-size: 2.5em; }
+    .left .tag p {
+      font-weight: 300;
+      color: lightgray;
+      font-size: 1.3em; }
+    .left .tag ul {
+      list-style-type: none;
+      padding-left: 0; }
+      .left .tag ul li {
+        width: 30%; }
+        .left .tag ul li .button {
+          border-radius: 5rem;
+          font-size: 1em;
+          color: #ffffff;
+          text-decoration: none;
+          padding: .5rem 1.8rem .5rem 1.8rem;
+          background: linear-gradient(60deg, #98349b 0%, #c94693 25%, #ef558d 78%, #f8bc05 100%); }
+        .left .tag ul li .button:hover {
+          background: linear-gradient(60deg, #f8bc05 0%, #ef558d 25%, #c94693 78%, #98349b 100%); }
+      .left .tag ul .link {
+        padding-top: .5rem; }
+        .left .tag ul .link a {
+          font-size: 1em;
+          color: #ffffff;
+          text-decoration: none; }
+      .left .tag ul .link a:hover {
+        border-bottom: 2px solid white; }
+
+.right {
+  padding-top: 4rem; }
+  .right ul {
+    list-style-type: none;
+    padding: 0 1%; }
+    .right ul li {
+      background-color: #ffffff;
+      border-radius: 4px;
+      color: gray;
+      padding: 5%;
+      font-size: 1.5em;
+      font-weight: 300; }
+      .right ul li .quotedate {
+        padding-left: 25%;
+        font-size: 1rem; }
+      .right ul li .quotename {
+        font-size: 1rem; }
+      .right ul li .twitterpic {
+        border-radius: 100%; }
+      .right ul li .handle, .right ul li .hash {
+        text-decoration: none;
+        color: #f47e67; }
+
+footer {
+  bottom: 3rem;
+  font-size: 1.1em;
+  font-weight: 300; }
+  footer .customers {
+    color: #f47e67; }
+  footer .customers:hover {
+    color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

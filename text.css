@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+    background-image: linear-gradient(to bottom left, #973999, #f8598b, #f7bf00);
+}
+.head {
+    display: flex;
+    flex-direction: row;
+}
+.taskbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
